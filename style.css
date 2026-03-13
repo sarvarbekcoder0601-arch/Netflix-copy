@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.root {
+    height: 648px;
+    background-image: url(Netflix.jpg);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-weight: bold;
+    background: #1f1f1f;
+    color: white;
+    padding: 8px;
+    border-radius: 0px;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 5px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #1f1f1f;
+    min-width: 160px;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #333;
+}
+
+.active {
+    background: #2d6cdf;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.logo h1 {
+    float: left;
+    color: red;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+}
+
+.navbar .btn-2 {
+    padding: 8px;
+    width: 80px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    border-color: red;
+    font-weight: bold;
+}
+
+.navbar {
+    float: right;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+
+.main {
+    padding-top: 250px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.main h1 {
+    line-height: 80px;
+    font-size: 60px;
+}
+
+.main p {
+    font-size: 19px;
+}
+
+.form {
+    text-align: center;
+}
+
+form input {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    backdrop-filter: blur(3px);
+    background: none;
+    border: 1px solid gray;
+    opacity: 5;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 21px;
+}
+
+form input::placeholder {
+    margin-left: 150px;
+    font-size: 21px;
+    color: gray;
+    font-weight: bold;
+}
+
+form button {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.cards h1 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.cards-2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-2 h1 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-2 {
+    margin-top: 50px;
+    background: linear-gradient(80deg, rgb(81, 60, 109), rgb(29, 17, 43));
+    display: inline-block;
+    text-align: none;
+    width: 250px;
+    height: 290px;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+
+.card-2 h2 {
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.card-2 p {
+    color: gray;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.card-2:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.cards-3 {
+    margin-top: 50px;
+}
+
+.cards-3 h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card-3 {
+    margin-top: 10px;
+    background-color: rgb(70, 69, 69);
+    color: #fff;
+    height: 80px;
+    width: 1050px;
+    margin-left: 130px;
+}
+
+.card-3:hover {
+    cursor: pointer;
+}
+
+.card-3 h2 {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.card-3 span {
+    font-size: 40px;
+    margin-left: 700px;
+}
+
+.cards-3 form {
+    text-align: center;
+}
+
+form p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.container form {
+    margin-top: 70px;
+}
+
+.container form input {
+    margin-top: 30px;
+    width: 500px;
+}
+
+footer {
+    height: 500px;
+}
+
+.cards-4 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.cards-4 h4 {
+    margin-left: 100px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.card-4 {
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: none;
+    display: inline-block;
+}
+
+.card-4 a {
+    line-height: 40px;
+    text-decoration: underline;
+    color: gray;
+}
+
+.card-4 a:hover {
+    color: #fff;
+}
+footer .dropdown {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+footer h5 {
+    color: gray;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+footer p {
+    margin-left: 100px;
+    color: gray;
+}
+footer p a {
+    color: aqua;
+}
